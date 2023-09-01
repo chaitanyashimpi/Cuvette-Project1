@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Micro Project 1</title>
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+	</head>
+	<body>
+		<section class="hero">
+			<div class="heroContent">
+				<div class="herosContent">
+					<h2>An inspiring design delivered to your inbox every morning</h2>
+					<p>
+						Our team scouts the internet for the best designs, illustrations and
+						art and delivers a truly inspiring one every day to your inbox
+					</p>
+					<h4>Show me how it looks</h4>
+
+					<form
+						id="form"
+						action="">
+						<input
+							type="email"
+							name=""
+							placeholder="Your e-mail address"
+							id="" />
+						<a onclick="submitForm()">Register Now</a>
+					</form>
+
+					<h1 id="thankYou">Thank you!</h1>
+
+					<p>Free - No Spam - No Data Sharing</p>
+				</div>
+			</div>
+			<div class="heroImage">
+				<img
+					src="./img.png"
+					alt="" />
+			</div>
+		</section>
+		<footer>
+			<div class="links">
+				<p>Prompt Generator</p>
+				<p>Dweep Daily</p>
+				<p>All Contributors</p>
+				<p>Your data on Dweep.io</p>
+				<p>Contribution to Dweep</p>
+			</div>
+			<div class="footerDetails">
+				<p>Dweep.io</p>
+				<p>Made with love in India</p>
+				<div>
+					<i class="fab fa-linkedin-in"></i>
+					<i class="fab fa-instagram"></i>
+				</div>
+				<p>hello@dweep.io</p>
+			</div>
+		</footer>
+		<script>
+			const submitForm = () => {
+				document.getElementById('form').style.display = 'none';
+				document.getElementById('thankYou').style.display = 'inherit';
+			};
+		</script>
+		<script
+			src="https://kit.fontawesome.com/6ea7a5ad8a.js"
+			crossorigin="anonymous"></script>
+	</body>
+</html>
